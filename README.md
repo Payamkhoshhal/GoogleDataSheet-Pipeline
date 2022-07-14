@@ -9,7 +9,7 @@ Column channels has a json data. In the channels there are some data related to 
 
       . Created a Postgresql database in AWS RDS
  
-      . Read data from google sheet and load them to the postgresql
+      . Read data from google sheet and load it to the postgresql
  
       . Connected to the postgresql database with dbt
  
@@ -30,5 +30,5 @@ There is a schema.yml file that describes tables and columns also some dbt built
 
 Data from google sheets was extracted by getting access to gcp account and having required credentials. Then data was stored in pandas dataframe and was moved to postgres sql database in aws rds servic.
 
-More details were commented in scripts.
+More details were commented in the scripts.
 
